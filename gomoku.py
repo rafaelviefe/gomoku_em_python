@@ -116,7 +116,7 @@ def play_match():
     if game.moves == 361:
         print('É... vocês conseguiram empatar.')
     elif game.pvp_mode:
-        print(f'Parabéns, jogador {turno}, você venceu!')        
+        print(f'Parabéns, jogador {game.current_player}, você venceu!')        
     elif game.machine_turn:
         print('Parabéns, você venceu!')
     else:
