@@ -48,7 +48,6 @@ class Gomoku:
         sleep(1)
     
     def find_win(self):
-        '''com esse sistema também seria possível fazer com que a máquina fizesse jogadas menos randômicas'''
         directions = [(1, 0), (0, 1), (1, 1), (1, -1)]
         for dx, dy in directions:
             count = 1
