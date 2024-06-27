@@ -46,6 +46,7 @@ class Gomoku:
             else:
                 print(i, end=" ")
             i += 1
+
             for column in row:
                 if column == 1:
                     print("X", end="   ")
@@ -53,9 +54,9 @@ class Gomoku:
                     print("0", end="   ")
                 else:
                     print(".", end="   ")
+
             print()
             print()
-            
         print("  ", end=" ")
         i = 1
         while i <= len(self.__board):
@@ -64,6 +65,7 @@ class Gomoku:
             else:
                 print(i, end="  ")
             i += 1
+            
         print()
         print()
         sleep(1)
